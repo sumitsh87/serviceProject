@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  userId: MyString
+  defecttype: MyString
+  defectdescription: MyString
+  defectseverity: MyString
+  requesteddate: 2014-09-22 16:59:44
+  currentstatus: MyString
+  requestresolvedate: 2014-09-22 16:59:44
+  paymentamount: 1
+
+two:
+  userId: MyString
+  defecttype: MyString
+  defectdescription: MyString
+  defectseverity: MyString
+  requesteddate: 2014-09-22 16:59:44
+  currentstatus: MyString
+  requestresolvedate: 2014-09-22 16:59:44
+  paymentamount: 1

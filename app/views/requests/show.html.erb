@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Userid:</strong>
+  <%= @request.userId %>
+</p>
+
+<p>
+  <strong>Defecttype:</strong>
+  <%= @request.defecttype %>
+</p>
+
+<p>
+  <strong>Defectdescription:</strong>
+  <%= @request.defectdescription %>
+</p>
+
+<p>
+  <strong>Defectseverity:</strong>
+  <%= @request.defectseverity %>
+</p>
+
+<p>
+  <strong>Requesteddate:</strong>
+  <%= @request.requesteddate %>
+</p>
+
+<p>
+  <strong>Currentstatus:</strong>
+  <%= @request.currentstatus %>
+</p>
+
+<p>
+  <strong>Requestresolvedate:</strong>
+  <%= @request.requestresolvedate %>
+</p>
+
+<p>
+  <strong>Paymentamount:</strong>
+  <%= @request.paymentamount %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>
