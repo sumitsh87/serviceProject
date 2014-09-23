@@ -1,4 +1,5 @@
 ServiceProject::Application.routes.draw do
+  devise_for :users
   resources :requests
 
   root :to => redirect('/requests')
